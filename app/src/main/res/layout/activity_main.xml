@@ -26,11 +26,10 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="480dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="100dp"
         android:layout_marginRight="40dp"
-        android:layout_marginBottom="100dp">
+        android:layout_gravity="center">
 
         <View
             android:layout_width="match_parent"
@@ -46,7 +45,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/ic_person_white" />
 
             <TextView
@@ -98,6 +97,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginRight="30dp"
+                android:background="@drawable/rounded_button"
                 android:text="Iniciar Sesión" />
 
             <LinearLayout
@@ -132,6 +132,8 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="30dp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/white"
                 android:text="Registro" />
         </LinearLayout>
     </FrameLayout>
